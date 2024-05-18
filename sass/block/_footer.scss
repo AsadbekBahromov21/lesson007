@@ -1,0 +1,59 @@
+.footer{
+    width: 100%;
+    position: absolute;
+    background: $bg-py;
+    height: 382px;
+    margin-top: -200px;
+    z-index: 14;
+    padding-top: 87px;
+    &__card{
+        display: flex;
+        gap: 128.75px;
+    }
+    &__wrapper{
+        width: 20%;
+    }
+    &__logo{
+        margin-bottom: 31px;
+    }
+    &__text{
+        max-width: 170px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: josef;
+        color: #ffff;
+        line-height: 2;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__wrapper_b{
+        font-family: josef;
+        font-size: 20px;
+        font-weight: 400;
+        color:#ffff;
+        line-height: 2;
+        &:hover{
+        cursor: pointer;
+    }
+    }
+    &__collection{
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffff;
+        line-height: 2;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &__item{
+        font-family: josef;
+    }
+    &__foto{
+        display: flex;
+        gap: 14px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

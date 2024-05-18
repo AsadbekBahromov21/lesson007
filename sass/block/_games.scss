@@ -1,0 +1,89 @@
+.games{
+    background: $bg-dark;
+    padding-bottom: 82px;
+    // height: 1129px;
+    &__navbar{
+        display: flex;
+        margin-bottom: 64px;
+    }
+    &__logo{
+        display: flex;
+        gap: 20px;
+        flex: 1;
+        button{
+            max-width: 220px;
+            padding: 24px;
+            font-size: 19px;
+            font-weight: 800;
+            background: #252525;
+            color: #ffff;
+            border: none;
+            outline: none;
+            &:hover{
+                background: #7FFA8A;
+                color: $bg-dark;
+                cursor: pointer;
+            }
+        }
+    }
+    &__search{
+        button{
+            padding: 24px;
+            background: #252525;
+            border: none;
+            outline: none;
+        }
+    }
+    &__box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        overflow: hidden;
+    }
+    &__card{
+        width: 360px;
+        height: 480px;
+        // border: 1px solid red;
+       
+    }
+    &__color{
+        background: #5224B5;
+        margin-top: -10px;
+        padding: 20px 0 24px 24px;
+        // height: 100%;
+        h2{
+            font-family: josef;
+            font-size: 20px;
+            font-weight: 800;
+            color: #ffff;
+            margin-bottom: 20px;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            font-family: josef;
+            font-size: 24px;
+            font-weight: 800;
+            color: #FE8235;
+            margin-bottom: 40px;
+          
+            img{
+                padding-right: 10px;
+            }
+        }
+        span{
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-family: josef;
+            color: #ffff;
+            &:hover{
+                cursor: pointer;
+            }
+            img{
+                padding-right: 15px;
+            }
+        }
+    }
+
+}

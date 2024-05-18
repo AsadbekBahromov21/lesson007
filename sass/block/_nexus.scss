@@ -1,0 +1,77 @@
+.nexus{
+    background: $bg-dark;
+    &__subtitle{
+        font-size: 48px;
+        font-weight: 800;
+        color: #ffff;
+        max-width: 500px;
+        margin-bottom: 32px;
+    }
+    
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-bottom: 150px;
+    }
+    &__box{
+        width: 360px;
+        // height: 264px;
+        background: $bg-gold;
+        padding: 43px 26px 35px;
+        text-align: center;
+        &:hover{
+            background: $bg-py;
+        }
+       
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 27px;
+        }
+    }
+    &__card{
+        width: 360px;
+        // height: 264px;
+        background: $bg-py;
+        padding: 43px 26px 35px;
+        text-align: center;
+        transition: .25s;
+        &:hover{
+            background: $bg-gold;
+            p{
+                color: $bg-dark;
+            }
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #ffff;
+            margin-top: 27px;
+
+        }
+    }
+    &__discover{
+        display: flex;
+        gap: 160px;
+    }
+    &__text{
+        p{
+            max-width: 398px;
+            font-size: 36px;
+            font-weight: 400;
+            color: #ffff;
+        }
+      
+      
+    }
+    &__collection{
+        height: 495px;
+        p{
+            max-width: 600px;
+            font-size: 32px ;
+            font-weight: 400;
+            color: #ffff;
+        }
+    }
+}
